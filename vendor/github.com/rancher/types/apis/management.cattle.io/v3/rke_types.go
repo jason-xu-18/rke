@@ -567,6 +567,9 @@ type AzureCloudProvider struct {
 type AWSCloudProvider struct {
 }
 
+// OciCloudProvider options
+type OciCloudProvider struct {
+}
 type MonitoringConfig struct {
 	// Monitoring server provider
 	Provider string `yaml:"provider" json:"provider,omitempty" norman:"default=metrics-server"`
